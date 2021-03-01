@@ -1,0 +1,322 @@
+{
+  "contractName": "IStateSender",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "receiver",
+          "type": "address"
+        },
+        {
+          "internalType": "bytes",
+          "name": "data",
+          "type": "bytes"
+        }
+      ],
+      "name": "syncState",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.6.6+commit.6c089d02\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"receiver\",\"type\":\"address\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"syncState\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/abhimanyushekhawat/projects/matic-contracts/contracts/root/StateSender/IStateSender.sol\":\"IStateSender\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/abhimanyushekhawat/projects/matic-contracts/contracts/root/StateSender/IStateSender.sol\":{\"keccak256\":\"0x8f260b4eeb18f8cd86b144aa410c06f365827b99b177901c1497dff4d55c0e30\",\"urls\":[\"bzz-raw://2954e25696c7e80769d04282f0bfc7d7a3da22ae1928831d6144ffeb2c92fca9\",\"dweb:/ipfs/QmcJZPP4ZusGemWLxi1YBkkvSfpTHvjMHXAdL7U7KfQcLB\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "pragma solidity 0.6.6;\n\ninterface IStateSender {\n    function syncState(address receiver, bytes calldata data) external;\n}\n",
+  "sourcePath": "/Users/abhimanyushekhawat/projects/matic-contracts/contracts/root/StateSender/IStateSender.sol",
+  "ast": {
+    "absolutePath": "/Users/abhimanyushekhawat/projects/matic-contracts/contracts/root/StateSender/IStateSender.sol",
+    "exportedSymbols": {
+      "IStateSender": [
+        6122
+      ]
+    },
+    "id": 6123,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 6114,
+        "literals": [
+          "solidity",
+          "0.6",
+          ".6"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:22:44"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 6122,
+        "linearizedBaseContracts": [
+          6122
+        ],
+        "name": "IStateSender",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "functionSelector": "16f19831",
+            "id": 6121,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "syncState",
+            "nodeType": "FunctionDefinition",
+            "overrides": null,
+            "parameters": {
+              "id": 6119,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 6116,
+                  "mutability": "mutable",
+                  "name": "receiver",
+                  "nodeType": "VariableDeclaration",
+                  "overrides": null,
+                  "scope": 6121,
+                  "src": "72:16:44",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 6115,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "72:7:44",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 6118,
+                  "mutability": "mutable",
+                  "name": "data",
+                  "nodeType": "VariableDeclaration",
+                  "overrides": null,
+                  "scope": 6121,
+                  "src": "90:19:44",
+                  "stateVariable": false,
+                  "storageLocation": "calldata",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes_calldata_ptr",
+                    "typeString": "bytes"
+                  },
+                  "typeName": {
+                    "id": 6117,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "90:5:44",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes_storage_ptr",
+                      "typeString": "bytes"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "71:39:44"
+            },
+            "returnParameters": {
+              "id": 6120,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "119:0:44"
+            },
+            "scope": 6122,
+            "src": "53:67:44",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 6123,
+        "src": "24:98:44"
+      }
+    ],
+    "src": "0:123:44"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/Users/abhimanyushekhawat/projects/matic-contracts/contracts/root/StateSender/IStateSender.sol",
+      "exportedSymbols": {
+        "IStateSender": [
+          6122
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "0.6",
+            ".6"
+          ]
+        },
+        "id": 6114,
+        "name": "PragmaDirective",
+        "src": "0:22:44"
+      },
+      {
+        "attributes": {
+          "abstract": false,
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "interface",
+          "documentation": null,
+          "fullyImplemented": false,
+          "linearizedBaseContracts": [
+            6122
+          ],
+          "name": "IStateSender",
+          "scope": 6123
+        },
+        "children": [
+          {
+            "attributes": {
+              "body": null,
+              "documentation": null,
+              "functionSelector": "16f19831",
+              "implemented": false,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "syncState",
+              "overrides": null,
+              "scope": 6122,
+              "stateMutability": "nonpayable",
+              "virtual": false,
+              "visibility": "external"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "mutability": "mutable",
+                      "name": "receiver",
+                      "overrides": null,
+                      "scope": 6121,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "stateMutability": "nonpayable",
+                          "type": "address"
+                        },
+                        "id": 6115,
+                        "name": "ElementaryTypeName",
+                        "src": "72:7:44"
+                      }
+                    ],
+                    "id": 6116,
+                    "name": "VariableDeclaration",
+                    "src": "72:16:44"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "mutability": "mutable",
+                      "name": "data",
+                      "overrides": null,
+                      "scope": 6121,
+                      "stateVariable": false,
+                      "storageLocation": "calldata",
+                      "type": "bytes",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "bytes",
+                          "type": "bytes"
+                        },
+                        "id": 6117,
+                        "name": "ElementaryTypeName",
+                        "src": "90:5:44"
+                      }
+                    ],
+                    "id": 6118,
+                    "name": "VariableDeclaration",
+                    "src": "90:19:44"
+                  }
+                ],
+                "id": 6119,
+                "name": "ParameterList",
+                "src": "71:39:44"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 6120,
+                "name": "ParameterList",
+                "src": "119:0:44"
+              }
+            ],
+            "id": 6121,
+            "name": "FunctionDefinition",
+            "src": "53:67:44"
+          }
+        ],
+        "id": 6122,
+        "name": "ContractDefinition",
+        "src": "24:98:44"
+      }
+    ],
+    "id": 6123,
+    "name": "SourceUnit",
+    "src": "0:123:44"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.6.6+commit.6c089d02.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.4",
+  "updatedAt": "2021-03-01T19:59:54.813Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

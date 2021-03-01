@@ -1,5 +1,4 @@
 node_modules
-build
 .DS_Store
 
 # Committing artifacts so they can be accessed from other projects
